@@ -1,0 +1,19 @@
+{
+  "name": "fakestoreapi-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for FakeStore API data validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "jest --watch --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "jest": "^29.7.0",
+    "node-fetch": "^2.7.0"
+  }
+}
